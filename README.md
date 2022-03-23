@@ -2,9 +2,9 @@
 
 Install cron and scedule jobs on your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-cron/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-cron/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-cron/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-cron)|[![quality](https://img.shields.io/ansible/quality/57821)](https://galaxy.ansible.com/buluma/cron)|[![downloads](https://img.shields.io/ansible/role/d/57821)](https://galaxy.ansible.com/buluma/cron)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-cron.svg)](https://github.com/buluma/ansible-role-cron/releases/)|
+|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|---------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-cron/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-cron/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-cron/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-cron)|[![quality](https://img.shields.io/ansible/quality/57821)](https://galaxy.ansible.com/buluma/cron)|[![downloads](https://img.shields.io/ansible/role/d/57821)](https://galaxy.ansible.com/buluma/cron)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-cron.svg)](https://github.com/buluma/ansible-role-cron/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-cron.svg)](https://github.com/buluma/ansible-role-cron/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-cron.svg)](https://github.com/buluma/ansible-role-cron/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
