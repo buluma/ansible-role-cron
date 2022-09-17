@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.10](https://github.com/buluma/ansible-role-cron/tree/1.0.10) (2022-08-24)
+
+[Full Changelog](https://github.com/buluma/ansible-role-cron/compare/1.0.9...1.0.10)
+
 ## [1.0.9](https://github.com/buluma/ansible-role-cron/tree/1.0.9) (2022-05-09)
 
 [Full Changelog](https://github.com/buluma/ansible-role-cron/compare/1.0.8...1.0.9)
