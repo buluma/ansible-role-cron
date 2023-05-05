@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-cron/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-cron/compare/2.0.1...HEAD)
+
+**Merged pull requests:**
+
+- Bump act10ns/slack from 1 to 2 [\#10](https://github.com/buluma/ansible-role-cron/pull/10) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [2.0.1](https://github.com/buluma/ansible-role-cron/tree/2.0.1) (2022-11-09)
 
 [Full Changelog](https://github.com/buluma/ansible-role-cron/compare/1.0.10...2.0.1)
