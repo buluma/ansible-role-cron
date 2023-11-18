@@ -4,6 +4,11 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-cron/compare/2.0.1...HEAD)
 
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#17](https://github.com/buluma/ansible-role-cron/issues/17)
+- Update action [\#16](https://github.com/buluma/ansible-role-cron/issues/16)
+
 **Merged pull requests:**
 
 - Bump act10ns/slack from 1 to 2 [\#10](https://github.com/buluma/ansible-role-cron/pull/10) ([dependabot[bot]](https://github.com/apps/dependabot))
