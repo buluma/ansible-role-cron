@@ -1,5 +1,17 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-cron/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-cron/compare/2.0.3...HEAD)
+
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#22](https://github.com/buluma/ansible-role-cron/issues/22)
+
+## [2.0.3](https://github.com/buluma/ansible-role-cron/tree/2.0.3) (2023-12-25)
+
+[Full Changelog](https://github.com/buluma/ansible-role-cron/compare/2.0.2...2.0.3)
+
 ## [2.0.2](https://github.com/buluma/ansible-role-cron/tree/2.0.2) (2023-11-19)
 
 [Full Changelog](https://github.com/buluma/ansible-role-cron/compare/2.0.1...2.0.2)
