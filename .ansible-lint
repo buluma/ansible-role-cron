@@ -13,10 +13,5 @@ exclude_paths:
   - .github
   - requirements.yml
 
-skip_list:
-  - yaml[truthy]
-  - galaxy[no-changelog]
-  - galaxy[tags]
-
 enable_list:
   - name[prefix]
