@@ -6,5 +6,4 @@
     name: "{{ cron_service }}"
     state: restarted
   when:
-    - cron_service | length
-    - not ansible_check_mode | bool
+    - cron_service | length > 0
