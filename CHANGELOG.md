@@ -7,6 +7,8 @@
 **Closed issues:**
 
 - Conditional cron\_service | length fails on Ansible 2.19+ \(requires boolean result\) [\#32](https://github.com/buluma/ansible-role-cron/issues/32)
+- Update action [\#21](https://github.com/buluma/ansible-role-cron/issues/21)
+- rebuild action [\#20](https://github.com/buluma/ansible-role-cron/issues/20)
 
 **Merged pull requests:**
 
