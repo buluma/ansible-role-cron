@@ -1,5 +1,17 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-cron/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-cron/compare/24.3.31...HEAD)
+
+**Closed issues:**
+
+- Conditional cron\_service | length fails on Ansible 2.19+ \(requires boolean result\) [\#32](https://github.com/buluma/ansible-role-cron/issues/32)
+
+**Merged pull requests:**
+
+- Fix boolean conditional for Ansible 2.19+ compatibility [\#33](https://github.com/buluma/ansible-role-cron/pull/33) ([tavib47](https://github.com/tavib47))
+
 ## [24.3.31](https://github.com/buluma/ansible-role-cron/tree/24.3.31) (2024-03-29)
 
 [Full Changelog](https://github.com/buluma/ansible-role-cron/compare/2.3.0...24.3.31)
