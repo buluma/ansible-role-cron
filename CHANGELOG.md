@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-cron/tree/HEAD)
+## [24.5.0](https://github.com/buluma/ansible-role-cron/tree/24.5.0) (2026-02-17)
 
-[Full Changelog](https://github.com/buluma/ansible-role-cron/compare/24.4.0...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-cron/compare/24.4.0...24.5.0)
 
 **Merged pull requests:**
 
