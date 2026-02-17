@@ -5,4 +5,4 @@
 repository:
   description: Install cron and scedule jobs on your system.
   homepage: https://buluma.github.io/
-  topics: cron, crontab, scheduling, ansible, molecule, playbook
+  topics: cron, crontab, scheduling, system, ansible, molecule, playbook
