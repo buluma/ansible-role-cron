@@ -1,0 +1,4 @@
+ansible-role-cron: [ERROR]: Task failed: object of type 'dict' has no attribute 9
+fatal: [localhost]: FAILED! => {"changed": false, "msg": "Task failed: object of type 'dict' has no attribute 9"}
+ansible-role-cron: [ERROR]: Task failed: object of type 'dict' has no attribute 9
+fatal: [localhost]: FAILED! => {"changed": false, "msg": "Task failed: object of type 'dict' has no attribute 9"}
