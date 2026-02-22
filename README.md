@@ -11,39 +11,30 @@ Install cron and scedule jobs on your system.
 This example is taken from [`molecule/default/converge.yml`](https://github.com/buluma/ansible-role-cron/blob/master/molecule/default/converge.yml) and is tested on each push, pull request and release.
 
 ```yaml
----
-- name: Converge
-  hosts: all
-  become: true
+- become: true
   gather_facts: true
-
+  hosts: all
+  name: Converge
   roles:
-    - role: buluma.cron
-      cron_jobs:
-        - name: my_job
-          # Every 10 minutes
-          minute: "*/10"
-          # In the 23rd hour.
-          hour: 23
-          # For the first part of the month.
-          day: "1-15"
-          # Run "ls -l"
-          job: "ls -l"
-          # For a specific user
-          user: root
+  - cron_jobs:
+    - day: 1-15
+      hour: 23
+      job: ls -l
+      minute: '*/10'
+      name: my_job
+      user: root
+    role: buluma.cron
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-cron/blob/master/molecule/default/prepare.yml):
 
 ```yaml
----
-- name: Prepare
-  hosts: all
-  become: true
+- become: true
   gather_facts: false
-
+  hosts: all
+  name: Prepare
   roles:
-    - role: buluma.bootstrap
+  - role: buluma.bootstrap
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
@@ -53,17 +44,9 @@ Also see a [full explanation and example](https://buluma.github.io/how-to-use-th
 The default values for the variables are set in [`defaults/main.yml`](https://github.com/buluma/ansible-role-cron/blob/master/defaults/main.yml):
 
 ```yaml
----
-# defaults file for cron
-
-# The shell to use for running cronjobs.
-cron_shell: /bin/bash
-
-# The path to set for running jobs.
-cron_path: /sbin:/bin:/usr/sbin:/usr/bin
-
-# The address where mails should be sent to.
 cron_mailto: root
+cron_path: /sbin:/bin:/usr/sbin:/usr/bin
+cron_shell: /bin/bash
 ```
 
 ## [Requirements](#requirements)
