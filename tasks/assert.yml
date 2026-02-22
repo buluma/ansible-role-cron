@@ -1,5 +1,4 @@
 ---
-
 - name: assert | Test cron_shell
   ansible.builtin.assert:
     that:

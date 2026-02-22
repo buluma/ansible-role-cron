@@ -2,3 +2,6 @@ ansible-role-cron: [ERROR]: Task failed: object of type 'dict' has no attribute 
 fatal: [localhost]: FAILED! => {"changed": false, "msg": "Task failed: object of type 'dict' has no attribute 9"}
 ansible-role-cron: [ERROR]: Task failed: object of type 'dict' has no attribute 9
 fatal: [localhost]: FAILED! => {"changed": false, "msg": "Task failed: object of type 'dict' has no attribute 9"}
+ansible-role-cron [generator]: ERROR: Unhandled exception when retrieving 'DEFAULT_LOCAL_TMP': [Errno 1] Operation not permitted: '/Users/shadowwalker/.ansible/tmp/ansible-local-832884nzyhujs'
+ansible-role-cron [generator]: [ERROR]: Task failed: object of type 'dict' has no attribute 9
+fatal: [localhost]: FAILED! => {"changed": false, "msg": "Task failed: object of type 'dict' has no attribute 9"}
