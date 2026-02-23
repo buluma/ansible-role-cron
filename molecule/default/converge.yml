@@ -1,14 +1,14 @@
 ---
-  - become: true
-    gather_facts: true
-    hosts: all
-    name: Converge
-    roles:
-      - cron_jobs:
-          - day: 1-15
-            hour: 23
-            job: ls -l
-            minute: '*/10'
-            name: my_job
-            user: root
-        role: buluma.cron
+- name: Converge
+  hosts: all
+  become: true
+  gather_facts: true
+  roles:
+  - role: buluma.cron
+    cron_jobs:
+    - name: my_job
+      minute: '*/10'
+      hour: 23
+      day: 1-15
+      user: root
+      job: ls -l

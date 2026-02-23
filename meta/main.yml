@@ -17,7 +17,7 @@ galaxy_info:
         - all
     - name: EL
       versions:
-        - 9
+        - all
     - name: Debian
       versions:
         - all

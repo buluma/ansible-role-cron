@@ -12,31 +12,31 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
 
 ```yaml
 ---
-  - become: true
-    gather_facts: true
-    hosts: all
-    name: Converge
-    roles:
-      - cron_jobs:
-          - day: 1-15
-            hour: 23
-            job: ls -l
-            minute: '*/10'
-            name: my_job
-            user: root
-        role: buluma.cron
+- name: Converge
+  hosts: all
+  become: true
+  gather_facts: true
+  roles:
+  - role: buluma.cron
+    cron_jobs:
+    - name: my_job
+      minute: '*/10'
+      hour: 23
+      day: 1-15
+      user: root
+      job: ls -l
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-cron/blob/master/molecule/default/prepare.yml):
 
 ```yaml
 ---
-  - become: true
-    gather_facts: false
-    hosts: all
-    name: Prepare
-    roles:
-      - role: buluma.bootstrap
+- name: Prepare
+  hosts: all
+  become: true
+  gather_facts: false
+  roles:
+  - role: buluma.bootstrap
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
@@ -78,7 +78,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 |container|tags|
 |---------|----|
 |[Alpine](https://hub.docker.com/r/buluma/alpine)|all|
-|[EL](https://hub.docker.com/r/buluma/enterpriselinux)|9|
+|[EL](https://hub.docker.com/r/buluma/enterpriselinux)|all|
 |[Debian](https://hub.docker.com/r/buluma/debian)|all|
 |[Fedora](https://hub.docker.com/r/buluma/fedora)|all|
 |[Ubuntu](https://hub.docker.com/r/buluma/ubuntu)|all|

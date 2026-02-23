@@ -1,4 +1,4 @@
 ---
-collections:
+collections: []
 roles:
-  - name: buluma.bootstrap
+- name: buluma.bootstrap
