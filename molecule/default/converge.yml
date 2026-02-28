@@ -4,11 +4,11 @@
   become: true
   gather_facts: true
   roles:
-  - role: buluma.cron
-    cron_jobs:
-    - name: my_job
-      minute: '*/10'
-      hour: 23
-      day: 1-15
-      user: root
-      job: ls -l
+    - role: buluma.cron
+      cron_jobs:
+        - name: my_job
+          minute: '*/10'
+          hour: 23
+          day: 1-15
+          user: root
+          job: ls -l
