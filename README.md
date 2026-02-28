@@ -17,14 +17,14 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
   become: true
   gather_facts: true
   roles:
-  - role: buluma.cron
-    cron_jobs:
-    - name: my_job
-      minute: '*/10'
-      hour: 23
-      day: 1-15
-      user: root
-      job: ls -l
+    - role: buluma.cron
+      cron_jobs:
+        - name: my_job
+          minute: '*/10'
+          hour: 23
+          day: 1-15
+          user: root
+          job: ls -l
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-cron/blob/master/molecule/default/prepare.yml):
@@ -98,3 +98,4 @@ If you find issues, please register them on [GitHub](https://github.com/buluma/a
 ## [Author Information](#author-information)
 
 [buluma](https://buluma.github.io/)
+
