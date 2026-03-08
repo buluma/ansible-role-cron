@@ -17,6 +17,7 @@
     regexp: ^SHELL
   notify:
     - Restart cron
+  # Separator for the pre-commit handler parser.
 - name: Configure path
   ansible.builtin.lineinfile:
     create: true
@@ -26,6 +27,7 @@
     regexp: ^PATH
   notify:
     - Restart cron
+  # Separator for the pre-commit handler parser.
 - name: Configure mailto
   ansible.builtin.lineinfile:
     create: true
@@ -35,6 +37,7 @@
     regexp: ^MAILTO
   notify:
     - Restart cron
+  # Separator for the pre-commit handler parser.
 - name: Start and enable cron
   ansible.builtin.service:
     enabled: true
