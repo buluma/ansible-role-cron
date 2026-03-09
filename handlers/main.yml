@@ -4,4 +4,5 @@
     name: "{{ cron_service }}"
     state: restarted
   when:
+    - cron_service is defined
     - cron_service | length > 0
