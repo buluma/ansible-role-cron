@@ -1,5 +1,25 @@
 # Changelog
 
+## [26.6.1](https://github.com/buluma/ansible-role-cron/tree/26.6.1) (2026-06-14)
+
+[Full Changelog](https://github.com/buluma/ansible-role-cron/compare/26.6.0...26.6.1)
+
+## [26.6.0](https://github.com/buluma/ansible-role-cron/tree/26.6.0) (2026-06-14)
+
+[Full Changelog](https://github.com/buluma/ansible-role-cron/compare/26.3.10...26.6.0)
+
+## [26.3.10](https://github.com/buluma/ansible-role-cron/tree/26.3.10) (2026-03-09)
+
+[Full Changelog](https://github.com/buluma/ansible-role-cron/compare/26.3.9...26.3.10)
+
+**Merged pull requests:**
+
+- Update galaxy.yml [\#41](https://github.com/buluma/ansible-role-cron/pull/41) ([buluma](https://github.com/buluma))
+
+## [26.3.9](https://github.com/buluma/ansible-role-cron/tree/26.3.9) (2026-03-08)
+
+[Full Changelog](https://github.com/buluma/ansible-role-cron/compare/24.5.0...26.3.9)
+
 ## [24.5.0](https://github.com/buluma/ansible-role-cron/tree/24.5.0) (2026-02-17)
 
 [Full Changelog](https://github.com/buluma/ansible-role-cron/compare/24.4.0...24.5.0)
